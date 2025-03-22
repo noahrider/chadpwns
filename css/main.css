@@ -7,22 +7,55 @@ body, html {
     height: 100%;
     display: table;
 }
-.center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
 iframe {
     border: 1px solid white;
 }
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+#container {
+    width: 960px;
     margin: 0 auto;
-    width: 1175px;
+    text-align: left;
+}
+#content {
+    background-color: #1b1b1b;
+    border: solid 3px #333;
+    overflow: auto;
 }
 .header {
     width: 100%;
     text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+  
+li {
+    display: inline;
+}
+.center {
+    display: block;
+    text-align: center;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.callnow {
+    background-color: #c4eefa;
+    color: black;
+    padding: 5px;
+}
+#content img {
+    border: 2px solid white;
+    margin: 3px;
+}
+.txtrot {
+    transform: rotate(-10deg);
+    display: inline-block;
+}
+.inline {
+    display: inline;
 }
