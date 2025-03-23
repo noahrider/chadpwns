@@ -1,0 +1,23 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* included */
+@font-face {
+    font-family: "PixelOperator";
+    src: url(/assets/fonts/PixelOperatorMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PixelNES";
+    src: url(/assets/fonts/Pixel_NES.woff);
+}
+
+@font-face {
+    font-family: "PerfectDOS";
+    src: url(/assets/fonts/PerfectDOS.woff);
+}
+
+@font-face {
+    font-family: "SevenSegment";
+    src: url(/assets/fonts/SevenSegment.ttf);
+}
